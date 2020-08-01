@@ -1,0 +1,24 @@
+{
+	"suggest.noselect": true,
+	"suggest.timeout": 500,
+	"diagnostic.virtualText": true,
+	"jedi.enable":false,
+	"jedi.completion.disableSnippets": true,
+	"jedi.jediSettings.autoImportModules": [],
+	"python.linting.pep8Enabled":true,
+	"python.linting.pylintEnabled":false,
+	"python.jediEnabled":true,
+	"python.jediShortcut": "JEDI",
+	"python.formatting.provider":"autopep8",
+	"python.autoUpdateLanguageServer": true,
+	"clangd.semanticHighlighting":true,
+	"xml.java.home":"/usr/lib/jvm/java-14-openjdk-amd64/",
+	"languageserver": {
+    "golang": {
+      "command": "gopls",
+      "args": [],
+      "rootPatterns": ["go.mod", ".vim/", ".git/", ".hg/"],
+      "filetypes": ["go"]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+	"suggest.noselect": true,
+	"suggest.timeout": 500,
+	"diagnostic.virtualText": true,
+	"xml.java.home":"/usr/lib/jvm/java-14-openjdk-amd64/",
+	"python.jediEnabled":true,
+	"languageserver": {
+    "golang": {
+      "command": "gopls",
+      "args": [],
+      "rootPatterns": ["go.mod", ".vim/", ".git/", ".hg/"],
+      "filetypes": ["go"]
+    }
+  }
+}
