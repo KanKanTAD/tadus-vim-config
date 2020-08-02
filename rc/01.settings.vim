@@ -57,9 +57,9 @@ set backspace=indent,eol,start
 set ic
 
 " tab宽度  
-set tabstop=2  
-set cindent shiftwidth=2  
-set autoindent shiftwidth=2 
+set tabstop=4  
+set cindent shiftwidth=4
+set autoindent shiftwidth=4
 
 " set 折叠
 set foldmethod=indent
@@ -70,32 +70,35 @@ set foldlevelstart=99
 let mapleader="\<Space>"
 
 "For neomake
-nnoremap <leader>m :Neomake<CR>
+"nnoremap <leader>m :Neomake<CR>
 let g:neomake_open_list = 2
 let g:neomake_list_height = 7
 
 "For ydict Plugin
-vnoremap <leader>yv <Esc>:Ydv<CR>
-nnoremap <leader>yc <Esc>:Ydc<CR>
-nnoremap <leader>ye :<C-u>Yde<CR>
+"vnoremap <leader>yv <Esc>:Ydv<CR>
+"nnoremap <leader>yc <Esc>:Ydc<CR>
+"nnoremap <leader>ye :<C-u>Yde<CR>
 
 "Disable highlight
-nnoremap <leader>n :nohl<CR>
+"nnoremap <leader>n :nohl<CR>
+
+nmap <C-s> <Esc> :wall<cr>
+imap <C-s> <Esc> :wall<cr>
 
 " coc settings
 inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<CR>"
 
 " Settings for vim-easymotion
-let g:EasyMotion_leader_key = ","
+"let g:EasyMotion_leader_key = ","
  
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.jpg,*.png,*.gif,*.jpeg,.DS_Store  " MacOSX/Linux
 
 " settings for resize splitted window
-nmap w[ :vertical resize -3<CR>
-nmap w] :vertical resize +3<CR>
+nmap w[ :vertical resize -5<CR>
+nmap w] :vertical resize +5<CR>
 
-nmap w- :resize -3<CR>
-nmap w= :resize +3<CR>
+nmap w- :resize -5<CR>
+nmap w= :resize +5<CR>
 
 " code search
 let g:ackprg = 'ag --nogroup --nocolor --column'
