@@ -2,4 +2,8 @@
 vim-config
 
 
-# ~/.config/nvim/
+## config path
+. ~/.config/nvim/
+
+## powerline fonts
+. git@github.com:powerline/fonts.git
