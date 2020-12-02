@@ -5,6 +5,7 @@ Plug 'octol/vim-cpp-enhanced-highlight'
 
 Plug 'mattn/emmet-vim'
 Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/nerdcommenter'
@@ -25,7 +26,7 @@ Plug 'yggdroot/indentline'
 
 "Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
 "Plug 'davidhalter/jedi-vim'
-
+Plug 'rust-lang/rust.vim'
 
 call plug#end()
 
