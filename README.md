@@ -6,7 +6,7 @@ vim-config
 . ~/.config/nvim/
 
 ## powerline fonts
-- git@github.com:powerline/fonts.git
+- https://github.com/powerline/fonts.git
 - or
 ```shell
 sudo apt-get install fonts-powerline
