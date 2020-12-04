@@ -27,6 +27,7 @@ Plug 'yggdroot/indentline'
 "Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
 "Plug 'davidhalter/jedi-vim'
 Plug 'rust-lang/rust.vim'
+Plug 'mtdl9/vim-log-highlighting'
 
 call plug#end()
 
