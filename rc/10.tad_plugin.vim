@@ -17,6 +17,7 @@ Plug 'tpope/vim-surround'
 "Plug 'python-mode/python-mode'
 "Plug 'octol/vim-cpp-enhanced-highlight'
 "Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
+Plug 'honza/vim-snippets'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "Plug 'w0rp/ale'
 "Plug 'valloric/youcompleteme'
